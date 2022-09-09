@@ -18,7 +18,7 @@ with open('model', 'rb') as f:
 with open('vector', 'rb') as f:
     vect = pickle.load(f)
 
-CLASS_LAVEL = ["Hate Speech", "Not a Hate Speech"]
+CLASS_LAVEL = ["Not a Hate Speech", "Hate Speech"]
 
 
 @app.get("/ping")
